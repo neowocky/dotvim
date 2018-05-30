@@ -2,9 +2,11 @@ set nocompatible  " be iMproved, required
 filetype off  " required
 set exrc
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+set rtp+=~/vimfiles/bundle/Vundle.vim
+call vundle#begin('~\vimfiles\bundle')
+"
 " ==== plugin manager
 Plugin 'VundleVim/Vundle.vim'
 
